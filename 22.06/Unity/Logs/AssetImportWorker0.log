@@ -2125,3 +2125,372 @@ Received Import Request.
 Start importing Assets/Scenes/MainMenu.unity using Guid(29afd5651b589ae4ab7fcd1f9a08d30f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08f8d339531341fafd07c004aa40af50') in 0.000754 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 396.782141 seconds.
+  path: Assets/_Data/Scripts/ExitGame.cs
+  artifactKey: Guid(9a70b89ebe64d6f4b81f1db777c7778c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Data/Scripts/ExitGame.cs using Guid(9a70b89ebe64d6f4b81f1db777c7778c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5a6d5513392a7497cc7714a98a3276d') in 0.000831 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 20.731200 seconds.
+  path: Assets/_Data/Scripts/ExitGame.cs
+  artifactKey: Guid(9a70b89ebe64d6f4b81f1db777c7778c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Data/Scripts/ExitGame.cs using Guid(9a70b89ebe64d6f4b81f1db777c7778c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c8fe4c9bd4f4e370d89eb9aeea9b76e') in 0.000702 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 11.007804 seconds.
+  path: Assets/_Data/Scripts/ExitGame.cs
+  artifactKey: Guid(9a70b89ebe64d6f4b81f1db777c7778c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Data/Scripts/ExitGame.cs using Guid(9a70b89ebe64d6f4b81f1db777c7778c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4af43354727972f77069b9805bd63e1') in 0.000654 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.904014 seconds.
+  path: Assets/_Data/Scripts/ExitGame.cs
+  artifactKey: Guid(9a70b89ebe64d6f4b81f1db777c7778c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Data/Scripts/ExitGame.cs using Guid(9a70b89ebe64d6f4b81f1db777c7778c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11b4224afa9499549ac587facec1a98f') in 0.000753 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image D:\UNProject\GitHab\Kimika\22.06\Unity\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UNProject\GitHab\Kimika\22.06\Unity\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  2.064 seconds
+Refreshing native plugins compatible for Editor in 3.26 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 11.534 seconds
+Domain Reload Profiling: 13597ms
+	BeginReloadAssembly (811ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (516ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (80ms)
+	RebuildCommonClasses (60ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (1137ms)
+		LoadAssemblies (848ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (461ms)
+			TypeCache.Refresh (449ms)
+				TypeCache.ScanAssembly (433ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (11535ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (582ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (34ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (148ms)
+			ProcessInitializeOnLoadAttributes (347ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Script is not up to date after domain reload: guid(9a70b89ebe64d6f4b81f1db777c7778c) path("Assets/_Data/Scripts/ExitGame.cs") state(2)
+Refreshing native plugins compatible for Editor in 4.12 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4108 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (193.1 KB). Loaded Objects now: 4715.
+Memory consumption went from 152.8 MB to 152.6 MB.
+Total: 6.243600 ms (FindLiveObjects: 0.378300 ms CreateObjectMapping: 0.241000 ms MarkObjects: 5.365200 ms  DeleteObjects: 0.257500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image D:\UNProject\GitHab\Kimika\22.06\Unity\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UNProject\GitHab\Kimika\22.06\Unity\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.149 seconds
+Refreshing native plugins compatible for Editor in 3.75 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.254 seconds
+Domain Reload Profiling: 2401ms
+	BeginReloadAssembly (280ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (29ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (62ms)
+	RebuildCommonClasses (61ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (742ms)
+		LoadAssemblies (434ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (454ms)
+			TypeCache.Refresh (435ms)
+				TypeCache.ScanAssembly (418ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1254ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (540ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (36ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (107ms)
+			ProcessInitializeOnLoadAttributes (338ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 3.96 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4110 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (193.2 KB). Loaded Objects now: 4721.
+Memory consumption went from 154.1 MB to 153.9 MB.
+Total: 7.072700 ms (FindLiveObjects: 0.466600 ms CreateObjectMapping: 0.283200 ms MarkObjects: 6.010600 ms  DeleteObjects: 0.310300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image D:\UNProject\GitHab\Kimika\22.06\Unity\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UNProject\GitHab\Kimika\22.06\Unity\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.221 seconds
+Refreshing native plugins compatible for Editor in 4.75 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.342 seconds
+Domain Reload Profiling: 2562ms
+	BeginReloadAssembly (346ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (19ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (123ms)
+	RebuildCommonClasses (63ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (749ms)
+		LoadAssemblies (474ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (433ms)
+			TypeCache.Refresh (420ms)
+				TypeCache.ScanAssembly (398ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1343ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (537ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (35ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (109ms)
+			ProcessInitializeOnLoadAttributes (350ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 3.86 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4111 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (192.9 KB). Loaded Objects now: 4727.
+Memory consumption went from 155.1 MB to 154.9 MB.
+Total: 6.917900 ms (FindLiveObjects: 0.458400 ms CreateObjectMapping: 0.186600 ms MarkObjects: 5.986100 ms  DeleteObjects: 0.285400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 227.934103 seconds.
+  path: Assets/_Data/Scripts/OrientationSetter.cs
+  artifactKey: Guid(cf7e6f362ded05c43a4b9065181e94df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Data/Scripts/OrientationSetter.cs using Guid(cf7e6f362ded05c43a4b9065181e94df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96f8eefe98f25e9682e5caf622453e8f') in 0.003180 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 12.831765 seconds.
+  path: Assets/_Data/Scripts/OrientationSetter.cs
+  artifactKey: Guid(cf7e6f362ded05c43a4b9065181e94df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Data/Scripts/OrientationSetter.cs using Guid(cf7e6f362ded05c43a4b9065181e94df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f701368fec2f0877eb98206c31bca901') in 0.000701 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image D:\UNProject\GitHab\Kimika\22.06\Unity\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UNProject\GitHab\Kimika\22.06\Unity\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.674 seconds
+Refreshing native plugins compatible for Editor in 4.60 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  9.998 seconds
+Domain Reload Profiling: 11672ms
+	BeginReloadAssembly (261ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (23ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (61ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (1298ms)
+		LoadAssemblies (943ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (483ms)
+			TypeCache.Refresh (469ms)
+				TypeCache.ScanAssembly (452ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (10000ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (527ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (36ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (104ms)
+			ProcessInitializeOnLoadAttributes (338ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 3.79 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4110 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (193.2 KB). Loaded Objects now: 4732.
+Memory consumption went from 155.9 MB to 155.7 MB.
+Total: 6.094500 ms (FindLiveObjects: 0.435600 ms CreateObjectMapping: 0.153200 ms MarkObjects: 5.260600 ms  DeleteObjects: 0.243500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 43.309149 seconds.
+  path: Assets/Scenes/MiniGame.unity
+  artifactKey: Guid(5e97a1474f5b7884890769456ef80eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MiniGame.unity using Guid(5e97a1474f5b7884890769456ef80eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f181f0ecc8b1a33f741084a46e4ced5a') in 0.003054 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.921607 seconds.
+  path: Assets/Scenes/MiniMenu.unity
+  artifactKey: Guid(f819a238ab1cdce49b8d8c3c6e595ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MiniMenu.unity using Guid(f819a238ab1cdce49b8d8c3c6e595ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0b92c0f7a1e7942ffc059686d81c4a3') in 0.000726 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
