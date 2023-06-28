@@ -45,8 +45,8 @@ public class Reaction : MonoBehaviour, IPointerClickHandler
                 if (str == "" && fl)
                 {
                     imageReact.sprite = DataHolder.Elements[i].GetComponent<Element>().image.sprite;
-                    formulaReact.text = formula.text + "=" + DataHolder.Elements[i].GetComponent<Element>().name;
-                    DataHolder.opened.Add(DataHolder.Elements[i].GetComponent<Element>().name);
+                    formulaReact.text = formula.text + "=" + DataHolder.Elements[i].GetComponent<Element>().name1;
+                    DataHolder.opened.Add(DataHolder.Elements[i].GetComponent<Element>().name1);
                     React.SetActive(true); break;
                 }
             }

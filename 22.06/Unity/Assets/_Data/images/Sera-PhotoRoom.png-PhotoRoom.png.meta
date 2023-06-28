@@ -200,7 +200,10 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Sera-PhotoRoom.png-PhotoRoom_0: 9078740191177312128
+      Sera-PhotoRoom.png-PhotoRoom_1: -3710567081152381431
+      Sera-PhotoRoom.png-PhotoRoom_2: 1522894783911278496
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -21,7 +21,7 @@ public class Slot : MonoBehaviour, IDropHandler
         fl = true;
         for (int i = 0; i < DataHolder.Slot.Count; i++)
         {
-            if (DataHolder.Slot[i].GetComponent<Element>().name == other.GetComponent<Element>().name)
+            if (DataHolder.Slot[i].GetComponent<Element>().name1 == other.GetComponent<Element>().name1)
             {
                 fl = false; break;
             }
@@ -31,11 +31,11 @@ public class Slot : MonoBehaviour, IDropHandler
             DataHolder.Slot.Add(other.gameObject);
             if (formula.text == "")
             {
-                formula.text = other.GetComponent<Element>().name;
+                formula.text = other.GetComponent<Element>().name1;
             }
             else
             {
-                formula.text += "+" + other.GetComponent<Element>().name;
+                formula.text += "+" + other.GetComponent<Element>().name1;
             }
         }
         else
@@ -52,7 +52,7 @@ public class Slot : MonoBehaviour, IDropHandler
         Trigger = false;
         if (fl)
         {
-            formula.text = formula.text.Replace(other.GetComponent<Element>().name, "");
+            formula.text = formula.text.Replace(other.GetComponent<Element>().name1, "");
             formula.text = formula.text.Replace("++", "+");
             if (formula.text.Length != 0)
             {

@@ -200,7 +200,10 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Reaction-PhotoRoom.png-PhotoRoom_0: -7215191151962785807
+      Reaction-PhotoRoom.png-PhotoRoom_1: 7441822820161882924
+      Reaction-PhotoRoom.png-PhotoRoom_2: -6053253252660615748
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

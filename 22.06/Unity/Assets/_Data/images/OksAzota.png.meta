@@ -152,7 +152,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      OksAzota_0: -1742737535079306496
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

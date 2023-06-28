@@ -152,7 +152,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      FonReact_0: -5130826315693777146
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

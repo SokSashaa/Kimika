@@ -152,7 +152,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Garelka-PhotoRoom.png-PhotoRoom_0: 7078554591641877018
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

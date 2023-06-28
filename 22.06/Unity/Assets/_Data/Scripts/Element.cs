@@ -7,7 +7,7 @@ public class Element : MonoBehaviour
 {
     [HideInInspector]
     public Image image;
-    public string name;
+    public string name1;
     public string formula;
     public bool open = false;
     public int Score;
@@ -34,7 +34,7 @@ public class Element : MonoBehaviour
         {
             for (int i = 0; i < DataHolder.opened.Count; i++)
             {
-                if (DataHolder.opened[i] == name)
+                if (DataHolder.opened[i] == name1)
                 {
                     open = true;
                 }

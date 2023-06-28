@@ -176,7 +176,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      O2-PhotoRoom.png-PhotoRoom_0: 6542634431494280147
+      O2-PhotoRoom.png-PhotoRoom_1: 6184564477112889586
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
