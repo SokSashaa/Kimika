@@ -12,6 +12,7 @@ public class Element : MonoBehaviour
     public bool open = false;
     public int Score;
     public bool AddDataHolder = true;
+    public string description;
     private void Start()
     {
         image = GetComponent<Image>();
