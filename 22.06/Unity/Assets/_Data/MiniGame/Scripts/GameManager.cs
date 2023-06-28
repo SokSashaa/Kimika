@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Data.Common;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -12,21 +13,31 @@ public class GameManager : MonoBehaviour
 	[HideInInspector]
 	public 	bool 	playersTurn = false;
 
-
-	public 	Text 			scoreText;
+    public GameObject       React;
+    public Image            ReactImage;
+    public Text             ReactText;
+    public Text             Target;
+    public Text 			scoreText;
 	private int 			score;
-	private	BoardManager 	boardScript;
+    private	BoardManager 	boardScript;
 
 
     void Awake()
     {
-    	score = DataHolder.Score;
+        Target.text = "Цель : " + DataHolder.TargetScore;
+        score = DataHolder.Score;
     	stablePosition = 0;
         boardScript = GetComponent<BoardManager>();
     }
 
     void Update()
     {
+        if (score >= DataHolder.TargetScore) 
+        {
+            ReactImage.sprite = DataHolder.ImageTarget.sprite;
+            ReactText.text = DataHolder.NameTarget;
+            React.SetActive(true);
+        }
     	if (playersTurn)
     	{
 
@@ -51,7 +62,8 @@ public class GameManager : MonoBehaviour
     		{
     			playersTurn = true;
     		}
-
     	}
+
     }
+
 }

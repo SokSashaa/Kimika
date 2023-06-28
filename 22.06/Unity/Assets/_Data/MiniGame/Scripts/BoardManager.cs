@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class BoardManager : MonoBehaviour
@@ -513,7 +514,8 @@ public class BoardManager : MonoBehaviour
 
 	void Update()
 	{
-		if (spawnTimer > 2 && boardOk == true)
+
+        if (spawnTimer > 2 && boardOk == true)
 		{
 			spawnTimer = 0;
 			SpawnLine();
