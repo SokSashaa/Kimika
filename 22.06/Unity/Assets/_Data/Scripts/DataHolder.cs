@@ -11,4 +11,6 @@ public static class DataHolder
     public static int TargetScore = 999999999;
     public static Image ImageTarget;
     public static string NameTarget;
+    public static string NameTarget1;
+    public static string DescriptionTarget;
 }

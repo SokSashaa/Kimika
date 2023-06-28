@@ -13,6 +13,7 @@ public class Reaction : MonoBehaviour, IPointerClickHandler
     public Image imageReact;
     public Text formulaReact;
     public Text formula;
+    public Text description;
     public void OnPointerClick(PointerEventData eventData)
     {
         bool fl = false;
@@ -45,8 +46,10 @@ public class Reaction : MonoBehaviour, IPointerClickHandler
                 if (str == "" && fl)
                 {
                     imageReact.sprite = DataHolder.Elements[i].GetComponent<Element>().image.sprite;
-                    formulaReact.text = formula.text + "=" + DataHolder.Elements[i].GetComponent<Element>().name1;
+                    //formulaReact.text = formula.text + "=" + DataHolder.Elements[i].GetComponent<Element>().name1;
+                    formulaReact.text = DataHolder.Elements[i].GetComponent<Element>().name2;
                     DataHolder.opened.Add(DataHolder.Elements[i].GetComponent<Element>().name1);
+                    description.text = DataHolder.Elements[i].GetComponent<Element>().description;
                     React.SetActive(true); break;
                 }
             }

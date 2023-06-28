@@ -8,6 +8,7 @@ public class Element : MonoBehaviour
     [HideInInspector]
     public Image image;
     public string name1;
+    public string name2;
     public string formula;
     public bool open = false;
     public int Score;
