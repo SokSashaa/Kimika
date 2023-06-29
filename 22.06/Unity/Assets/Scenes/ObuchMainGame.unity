@@ -1590,7 +1590,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "\u0426\u0435\u043B\u044C: \u041F\u043E\u043B\u0443\u0447\u0438\u0442\u044C
-    SO3"
+    NO"
 --- !u!222 &552994916
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5462,7 +5462,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0421\u0435\u0440\u043D\u044B\u0439 \u0430\u043D\u0433\u0438\u0434\u0440\u0438\u0434"
+  m_Text: "\u041E\u043A\u0441\u0438\u0434 \u0410\u0437\u043E\u0442\u0430"
 --- !u!222 &1792462121
 CanvasRenderer:
   m_ObjectHideFlags: 0
