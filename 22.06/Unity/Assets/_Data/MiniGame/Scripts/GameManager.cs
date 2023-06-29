@@ -35,7 +35,7 @@ public class GameManager : MonoBehaviour
         if (score >= DataHolder.TargetScore) 
         {
             ReactImage.sprite = DataHolder.ImageTarget.sprite;
-            ReactText.text = DataHolder.NameTarget1;
+            ReactText.text = DataHolder.NameTarget;
             description.text = DataHolder.DescriptionTarget;
             React.SetActive(true);
         }
