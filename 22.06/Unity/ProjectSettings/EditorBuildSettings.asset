@@ -20,5 +20,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Obuchenie.unity
     guid: c8eabc34445181a47acfc02f3a03fb3c
+  - enabled: 1
+    path: Assets/Scenes/ObuchMainGame.unity
+    guid: aaa75a8c2cb30884383fb193084d7d00
+  - enabled: 1
+    path: Assets/Scenes/MiniGameForObuch.unity
+    guid: 25d4827ad55032244b058c461ccc3264
   m_configObjects: {}
-  m_UseUCBPForAssetBundles: 0

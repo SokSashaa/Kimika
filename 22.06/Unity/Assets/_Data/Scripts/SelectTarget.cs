@@ -17,8 +17,9 @@ public class SelectTarget : MonoBehaviour
                     if (el.Score < DataHolder.TargetScore)
                     {
                         DataHolder.TargetScore = el.Score;
-                        DataHolder.NameTarget = el.name1;
+                        DataHolder.NameTarget = el.name2;
                         DataHolder.ImageTarget = el.image;
+                        DataHolder.DescriptionTarget = el.description;
                     }
                 }
             }

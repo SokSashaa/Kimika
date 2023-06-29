@@ -18,6 +18,7 @@ public class Slot : MonoBehaviour, IDropHandler
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
+        Debug.Log(DataHolder.Slot.Count);
         fl = true;
         for (int i = 0; i < DataHolder.Slot.Count; i++)
         {
@@ -52,8 +53,34 @@ public class Slot : MonoBehaviour, IDropHandler
         Trigger = false;
         if (fl)
         {
-            formula.text = formula.text.Replace(other.GetComponent<Element>().name1, "");
-            formula.text = formula.text.Replace("++", "+");
+            string[] array = formula.text.Split("+");
+            string r = "";
+            for(int i = 0;i < array.Length;i++)
+            {
+                if (array[i] != other.GetComponent<Element>().name1)
+                {
+                    if (i == array.Length - 1)
+                    {
+                        r= r + array[i];
+                    }
+                    else 
+                    {
+                        /* if (i == array.Length - 2 && array.Length<3)
+                         {
+                             r = r + array[i];
+                         }
+                         else
+                         {
+                             r = r + array[i] + "+";
+                         }*/
+                        r = r + array[i] + "+";
+                    }
+                    
+                }
+            }
+            formula.text = r;
+           // formula.text = formula.text.Replace(other.GetComponent<Element>().name1, "", (System.StringComparison)1);
+           // formula.text = formula.text.Replace("++", "+");
             if (formula.text.Length != 0)
             {
                 if (formula.text.Substring(0, 1) == "+")
@@ -75,5 +102,9 @@ public class Slot : MonoBehaviour, IDropHandler
         {
             fl = true;
         }
+    }
+    private void Start()
+    {
+        DataHolder.Slot.Clear();   
     }
 }

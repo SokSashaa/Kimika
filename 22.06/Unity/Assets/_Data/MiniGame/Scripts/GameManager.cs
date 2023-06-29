@@ -13,14 +13,14 @@ public class GameManager : MonoBehaviour
 	[HideInInspector]
 	public 	bool 	playersTurn = false;
 
-    public GameObject       React;
-    public Image            ReactImage;
-    public Text             ReactText;
-    public Text             Target;
-    public Text 			scoreText;
-	private int 			score;
-    private	BoardManager 	boardScript;
-
+    public GameObject React;
+    public Image ReactImage;
+    public Text ReactText;
+    public Text Target;
+    public Text scoreText;
+	private int score;
+    private	BoardManager boardScript;
+    public Text description;
 
     void Awake()
     {
@@ -36,6 +36,7 @@ public class GameManager : MonoBehaviour
         {
             ReactImage.sprite = DataHolder.ImageTarget.sprite;
             ReactText.text = DataHolder.NameTarget;
+            description.text = DataHolder.DescriptionTarget;
             React.SetActive(true);
         }
     	if (playersTurn)
